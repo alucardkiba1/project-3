@@ -1,0 +1,59 @@
+
+.caja{
+    font-size: 20px;
+  color: black; 
+
+  outline: 1px solid rgb(23, 76, 189);
+  width: 400px;
+  height: 400px;
+  border: 5px solid blue;
+  padding: 50px;
+  margin: 50px;
+
+  }
+ header>nav>a{
+  font-size: 50px;
+} 
+aside a{
+  color: green;
+}
+h2, .texto-centrado{ 
+  text-align: center;
+}
+  h1{
+      color: blue;
+  }    
+  .texto-grande{
+      font-size: 90px;
+      color: black;
+  }
+  #texto-pequeno{
+      font-size: 10px;
+      color: brown;
+  }
+.alineacion{
+   /* text-align: left;*/
+/* text-align: center;*/
+/* text-align:right;*/
+text-align: justify;
+}
+.tamanos{
+    font-size: 20px;
+}
+.decoraciones{
+   /* text-decoration: underline;*/
+ /*   text-decoration: dashed;*/
+   /* text-decoration: line-through;*/
+   text-decoration: underline;
+
+
+}
+.underline{
+    
+    text-decoration: unset;
+}
+.transformaciones{
+/*text-transform: capitalize;*/
+/*text-transform: uppercase;*/
+text-transform: uppercase;
+} 
