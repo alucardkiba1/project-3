@@ -211,3 +211,37 @@ margin: 20px;
       background-color: blueviolet;
   }
 }
+.transformaciones{
+  display: block;
+  margin: auto;
+}
+.transformaciones:hover{
+  transform: scale(1.5);
+  /* transform: rotate(45deg);*/
+ /*  transform: translate(20px, -20px);*/
+
+}
+.animado{
+  text-align: center;
+}
+@keyframes aparecer{
+  from{
+     transform: translate(-1000px, 0px);
+  }
+  to{
+    transform: translate(0px, 0px);
+ }
+}
+.responsive{
+  font-size: 150px;
+}
+@media screen and (width< 800px) {
+  .responsive{
+    font-size: 120px;
+  }
+}
+@media screen and (width< 640px) {
+  .responsive{
+    font-size: 100px;
+  }
+}
